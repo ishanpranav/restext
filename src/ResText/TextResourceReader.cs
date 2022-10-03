@@ -56,9 +56,7 @@ namespace System.Resources
                 {
                     if (!string.IsNullOrWhiteSpace(line))
                     {
-                        char first = line[0];
-
-                        if (Array.IndexOf(commentChars, first) != -1)
+                        if (Array.IndexOf(commentChars, line[0]) != -1)
                         {
                             string comment = line
                                 .TrimStart(commentChars)
