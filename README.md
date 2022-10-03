@@ -1,5 +1,5 @@
-# .NET Repository Template
-This is a template repository for C#/.NET projects.
+# ResText
+This is a sample project for working with resource text files (*.restext).
 ## License
 This repository is licensed with the [MIT](LICENSE.txt) license.
 ## Attribution
